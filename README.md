@@ -122,11 +122,15 @@ Note that multiple runs of `pdflatex` are required to resolve all cross-referenc
 ## Questions
 
 1. What happens if you omit `bibtex` from the compilation sequence?
-2. Why is a `.bib` file preferred over hardcoded bibliographies?
-3. What is the difference between `\cite{}` and `\parencite{}`?
-4. How can BibTeX help maintain consistency across multiple documents?
-5. Can you reuse `references.bib` in future projects? Why?
-
+   the Latex have undefined \cite.
+3. Why is a `.bib` file preferred over hardcoded bibliographies?
+   using of bibliothek makes our references reuseble and well structured.
+5. What is the difference between `\cite{}` and `\parencite{}`?
+   the are using different pakets  output with the cite would be like ASD(200) with \parencite (ASD 200) 
+7. How can BibTeX help maintain consistency across multiple documents?
+   the bibtex helps to maintain consistency with easy updates, one central bib for bigger project makes it easier to manage.
+9. Can you reuse `references.bib` in future projects? Why?
+   Yes, bib makes possible to create and use own bibliothek with references
 ## Advice
 
 Mastering BibTeX transforms your LaTeX documents into scalable and professional publications. Even for small projects, it prevents duplication and errors while enabling easy adaptation to different style requirements. Many journals, conferences, and academic institutions rely heavily on BibTeX for their submissions. You are now building the foundation for advanced academic and professional writing. Reuse your `references.bib` file across multiple projects to build your own personal citation library over time. This exercise also prepares you for future topics like citation styles, reference management software integration, and journal-specific document classes.
